@@ -1,0 +1,32 @@
+.skills {
+      padding: 60px 0;
+      background-color: #ffffff;
+    }
+
+    .skill-item {
+      margin-bottom: 20px;
+    }
+
+    .skill-item h3 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    .progress-bar-container {
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      height: 20px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      background-color: #003366;
+      height: 100%;
+      border-radius: 5px;
+      transition: width 1s ease-in-out;
+    }
+
+    .progress-bar-container:hover .progress-bar {
+      box-shadow: 0 0 10px rgba(0, 51, 102, 0.5);
+    }
